@@ -4,5 +4,6 @@ Esse projeto tem o objetivo de disponibilizar para os alunos de pós graduação
     1-Octave/Matlab
     2-Scilab
     3-C/C++
+	4-Mathematica
     
 Contibuições são bens vindas de todos, mande um email para hamidrius@hotmail.com
