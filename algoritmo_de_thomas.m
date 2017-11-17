@@ -9,7 +9,7 @@
 %  [                                 b(n)  a(n)  ] [  y(n)  ]   [  f(n)  ]
 %
 %  f deve ser um vetor (coluna or linha) de tamanho n
-%  a, b, c devem ser vetores de tamnaho n (note que b(1) e c(n) n„o s„o usados)
+%  a, b, c devem ser vetores de tamnaho n (note que b(1) e c(n) n√£o s√£o usados)
 %%%%%  Example
 % n = 5; a = 4*ones(n,1); b = ones(n,1); c = 3*ones(n,1);
 % f = rand(n,1);
@@ -34,5 +34,7 @@ function y = algoritmo_de_thomas(a,b,c,f)
     for j=n-1:-1:1
      y(j) = y(j) - v(j)*y(j+1);
     endfor
+    
+    disp(y)
     
 endfunction
